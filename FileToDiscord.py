@@ -1,7 +1,7 @@
 import requests
 
 # Replace WEBHOOK_URL with your Discord webhook URL
-WEBHOOK_URL = "https://discord.com/api/webhooks/1048951371027714119/QOVY3qVg-RZkGRE-E2tC1lGz1JK0IaISjrRaSN0sfHOAtmu6NzOOSvwe5Tn8quPx3NDA"
+WEBHOOK_URL = "Your_Discord_Url"
 
 def send_message_to_discord(message):
     data = {"content": message}
@@ -29,4 +29,4 @@ def send_message_and_file_to_discord(message):
     send_message_to_discord(message)
     send_file_to_discord(file_path)
 
-send_message_and_file_to_discord("This is a message")
+send_message_and_file_to_discord("This is a File")
