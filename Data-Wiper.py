@@ -20,5 +20,5 @@ def wipe_data(file_path):
         for _ in range(3):
             f.write(get_random_bytes(size))
 
-file_path = input("Enter the file path to wipe :) ")
+file_path = input("\nAuthor = @PureWizard Aka Mian\nGithub = github.com/PureWizard\n\nEnter the file path to wipe:) ")
 wipe_data(file_path)
